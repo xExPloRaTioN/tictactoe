@@ -77,7 +77,7 @@ const checkGameStatus = () => {
         cellDivs[0].classList.add ("won");
         cellDivs[4].classList.add ("won");
         cellDivs[8].classList.add ("won");
-    } else if (topRight && topMiddle == middleMiddle && topRight == bottomLeft) {
+    } else if (topRight && topRight == middleMiddle && topRight == bottomLeft) {
         handleWin(topRight);
         cellDivs[2].classList.add ("won");
         cellDivs[4].classList.add ("won");
